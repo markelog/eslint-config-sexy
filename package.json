@@ -2,9 +2,9 @@
   "name": "eslint-config-sexy",
   "version": "0.0.3",
   "description": "Mostly sexy config",
-  "main": "eslint-config-sexy.js",
+  "main": "index.js",
   "files": [
-    "eslint-config-sexy.js",
+    "index.js",
     "monkey-patch.js",
     "license"
   ],
