@@ -11,6 +11,7 @@ module.exports = {
     'import/no-dynamic-require': ['off'],
     'global-require': ['off'],
     'comma-dangle': ['off'],
-    'no-useless-return': ['off']
+    'no-useless-return': ['off'],
+    'no-plusplus': ['off']
   }
 };
