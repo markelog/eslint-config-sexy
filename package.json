@@ -18,7 +18,8 @@
   "keywords": [
     "eslint",
     "eslintconfig",
-    "config"
+    "config",
+    "sexy"
   ],
   "author": {
     "name": "Oleg Gaidarenko",
@@ -27,8 +28,8 @@
   "license": "MIT",
   "homepage": "https://github.com/markelog/eslint-config-sexy#readme",
   "devDependencies": {
-    "eslint": "3.9.1",
-    "eslint-find-rules": "1.14.3"
+    "eslint": "^3.9.1",
+    "eslint-find-rules": "^1.14.3"
   },
   "scripts": {
     "pretest": "eslint-find-rules -u",
