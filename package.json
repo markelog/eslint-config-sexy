@@ -28,15 +28,15 @@
   "license": "MIT",
   "homepage": "https://github.com/markelog/eslint-config-sexy#readme",
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-find-rules": "^1.14.3"
+    "eslint": "^3.16.1"
   },
   "scripts": {
-    "pretest": "eslint-find-rules -u",
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.0.0",
+    "eslint-plugin-react": "^6.10.0"
   }
 }

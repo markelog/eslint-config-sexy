@@ -1,7 +1,12 @@
-require('./monkey-patch').addPlugins(['eslint-config-airbnb-base']);
+require('./monkey-patch').addPlugins(['eslint-config-airbnb']);
 
 module.exports = {
-  extends: require.resolve('eslint-config-airbnb-base'),
+  extends: require.resolve('eslint-config-airbnb'),
+  plugins: [
+    'react',
+    'jsx-a11y',
+    'import'
+  ],
 
   rules: {
     'no-param-reassign': ['off'],
@@ -12,6 +17,7 @@ module.exports = {
     'global-require': ['off'],
     'comma-dangle': ['off'],
     'no-useless-return': ['off'],
-    'no-plusplus': ['off']
+    'no-plusplus': ['off'],
+    'react/require-extension': ['off']
   }
 };
