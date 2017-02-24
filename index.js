@@ -15,11 +15,14 @@ module.exports = {
     'arrow-body-style': ['off'],
     'no-console': ['off'],
     'class-methods-use-this': ['off'],
-    'import/no-dynamic-require': ['off'],
     'global-require': ['off'],
     'comma-dangle': ['off'],
     'no-useless-return': ['off'],
     'no-plusplus': ['off'],
-    'react/require-extension': ['off']
+    'react/require-extension': ['off'],
+    'import/no-dynamic-require': ['off'],
+
+    // This is broken in so many ways
+    'import/no-extraneous-dependencies': ['off']
   }
 };
