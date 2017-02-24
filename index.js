@@ -1,3 +1,5 @@
+'use strict';
+
 require('./monkey-patch').addPlugins(['eslint-config-airbnb']);
 
 module.exports = {
