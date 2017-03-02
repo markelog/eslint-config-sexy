@@ -22,6 +22,9 @@ module.exports = {
     'react/require-extension': ['off'],
     'import/no-dynamic-require': ['off'],
 
+    'guard-for-in': ['off'],
+    'no-restricted-syntax': ['off'],
+
     // This is broken in so many ways
     'import/no-extraneous-dependencies': ['off']
   }
