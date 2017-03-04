@@ -19,12 +19,11 @@
     "eslint",
     "eslintconfig",
     "config",
-    "sexy"
+    "sexy",
+    "airbnb",
+    "react"
   ],
-  "author": {
-    "name": "Oleg Gaidarenko",
-    "email": "markelog@gmail.com"
-  },
+  "author": "Oleg Gaidarenko <markelog@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/markelog/eslint-config-sexy#readme",
   "devDependencies": {
