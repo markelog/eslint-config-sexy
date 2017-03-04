@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sexy",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "Mostly sexy config",
   "main": "index.js",
   "files": [
