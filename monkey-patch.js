@@ -18,11 +18,12 @@ if (!eslintLoc) {
 }
 
 const pluginPath = path.resolve(eslintLoc, '..', 'config', 'plugins.js');
+
 const plugins = require(pluginPath);
 const oldLoad = plugins.load.bind(plugins);
 let myPlugins = [];
 
-plugins.load = (pluginName) => {
+plugins.load = function load(pluginName) {
   if (myPlugins.indexOf(pluginName) === -1) {
     return oldLoad(pluginName);
   }

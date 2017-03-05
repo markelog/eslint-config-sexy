@@ -1,6 +1,12 @@
 'use strict';
 
-require('./monkey-patch').addPlugins(['eslint-config-airbnb']);
+const monkey = require('./monkey-patch');
+
+monkey.addPlugins([
+  'react',
+  'jsx-a11y',
+  'import'
+]);
 
 module.exports = {
   extends: require.resolve('eslint-config-airbnb'),
