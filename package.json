@@ -18,10 +18,12 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "eslint-config",
     "config",
     "sexy",
     "airbnb",
-    "react"
+    "react",
+    "plugin"
   ],
   "author": "Oleg Gaidarenko <markelog@gmail.com>",
   "license": "MIT",
