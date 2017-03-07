@@ -17,6 +17,7 @@ module.exports = {
   ],
 
   rules: {
+    'padded-blocks': ['off'],
     'no-param-reassign': ['off'],
     'arrow-body-style': ['off'],
     'no-console': ['off'],
