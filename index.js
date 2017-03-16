@@ -17,6 +17,11 @@ module.exports = {
   ],
 
   rules: {
+    'no-multiple-empty-lines': ['error', {
+      max: 1,
+      maxEOF: 1,
+      maxBOF: 0
+    }],
     'padded-blocks': ['off'],
     'no-param-reassign': ['off'],
     'arrow-body-style': ['off'],
