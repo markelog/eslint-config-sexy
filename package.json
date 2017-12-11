@@ -28,16 +28,15 @@
   "author": "Oleg Gaidarenko <markelog@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/markelog/eslint-config-sexy#readme",
-  "devDependencies": {
-    "eslint": "^3.16.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint-config-airbnb": "^11.1.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-jsx-a11y": "^2.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1"
   }
 }
