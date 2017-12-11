@@ -10,7 +10,7 @@ while (parent) {
     eslintLoc = Module._resolveFilename('eslint', parent);
     break;
   } catch (err) {
-    parent = parent.parent;
+    ({ parent } = parent);
   }
 }
 if (!eslintLoc) {
@@ -20,12 +20,14 @@ if (!eslintLoc) {
 const pluginPath = path.resolve(eslintLoc, '..', 'config', 'plugins.js');
 
 const plugins = require(pluginPath);
-const oldLoad = plugins.load.bind(plugins);
+const oldLoad = plugins.prototype.load;
 let myPlugins = [];
 
-plugins.load = function load(pluginName) {
+plugins.prototype.load = function load(...args) {
+  const pluginName = args[0];
+
   if (myPlugins.indexOf(pluginName) === -1) {
-    return oldLoad(pluginName);
+    return oldLoad.apply(this, args);
   }
 
   this.define(pluginName, require(`eslint-plugin-${pluginName}`));
