@@ -14,6 +14,10 @@ module.exports = {
     'import'
   ],
 
+  settings: {
+    'import/parser': 'babel-eslint'
+  },
+
   rules: {
     'no-multiple-empty-lines': ['error', {
       max: 1,
@@ -40,6 +44,7 @@ module.exports = {
 
     'guard-for-in': ['off'],
     'no-restricted-syntax': ['off'],
+    'jsx-a11y/anchor-is-valid': ['off'],
 
     // This is broken in so many ways
     'import/no-extraneous-dependencies': ['off']

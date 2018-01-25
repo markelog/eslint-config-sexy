@@ -1,7 +1,4 @@
 {
     "root": true,
-    "extends": "./index.js",
-    "settings": {
-      "import/parser": "babel-eslint"
-    }
+    "extends": "./index.js"
 }
