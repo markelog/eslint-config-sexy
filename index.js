@@ -1,5 +1,3 @@
-'use strict';
-
 const monkey = require('./monkey-patch');
 
 monkey.addPlugins([
@@ -22,6 +20,7 @@ module.exports = {
       maxEOF: 1,
       maxBOF: 0
     }],
+    'react/jsx-boolean-value': ['error', 'never'],
     'padded-blocks': ['off'],
     'no-param-reassign': ['off'],
     'arrow-body-style': ['off'],
@@ -33,6 +32,11 @@ module.exports = {
     'no-plusplus': ['off'],
     'react/require-extension': ['off'],
     'import/no-dynamic-require': ['off'],
+
+    'no-underscore-dangle': ['off'],
+    'consistent-return': ['off'],
+    strict: ['off'],
+    'react/jsx-filename-extension': ['off'],
 
     'guard-for-in': ['off'],
     'no-restricted-syntax': ['off'],
