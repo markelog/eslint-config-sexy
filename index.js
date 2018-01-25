@@ -14,9 +14,7 @@ module.exports = {
     'import'
   ],
 
-  settings: {
-    'import/parser': 'babel-eslint'
-  },
+  "parser": "babel-eslint",
 
   rules: {
     'no-multiple-empty-lines': ['error', {
