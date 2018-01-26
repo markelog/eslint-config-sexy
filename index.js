@@ -14,7 +14,7 @@ module.exports = {
     'import'
   ],
 
-  "parser": "babel-eslint",
+  parser: 'babel-eslint',
 
   rules: {
     'no-multiple-empty-lines': ['error', {
@@ -39,6 +39,7 @@ module.exports = {
     'consistent-return': ['off'],
     strict: ['off'],
     'react/jsx-filename-extension': ['off'],
+    'react/require-default-props': ['off'],
 
     'guard-for-in': ['off'],
     'no-restricted-syntax': ['off'],
