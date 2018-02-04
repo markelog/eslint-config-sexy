@@ -52,6 +52,6 @@ module.exports = {
 
     // This is broken in so many ways
     'import/no-extraneous-dependencies': ['off'],
-    "react/jsx-indent": ["off"]
+    'react/jsx-indent': ['off']
   }
 };
