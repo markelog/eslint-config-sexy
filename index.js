@@ -33,6 +33,8 @@ module.exports = {
     'no-useless-return': ['off'],
     'no-plusplus': ['off'],
     'react/require-extension': ['off'],
+
+    'import/prefer-default-export': ['off'],
     'import/no-dynamic-require': ['off'],
 
     'no-underscore-dangle': ['off'],
@@ -45,7 +47,11 @@ module.exports = {
     'no-restricted-syntax': ['off'],
     'jsx-a11y/anchor-is-valid': ['off'],
 
+    // No warnings
+    'react/no-danger': ['off'],
+
     // This is broken in so many ways
-    'import/no-extraneous-dependencies': ['off']
+    'import/no-extraneous-dependencies': ['off'],
+    "react/jsx-indent": ["off"]
   }
 };
