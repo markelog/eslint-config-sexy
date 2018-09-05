@@ -42,6 +42,7 @@ module.exports = {
     strict: ['off'],
     'react/jsx-filename-extension': ['off'],
     'react/require-default-props': ['off'],
+    'no-continue': ['off'],
 
     'guard-for-in': ['off'],
     'no-restricted-syntax': ['off'],
