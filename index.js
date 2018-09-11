@@ -50,6 +50,7 @@ module.exports = {
 
     // No warnings
     'react/no-danger': ['off'],
+    'func-names': ['off'],
 
     // This is broken in so many ways
     'import/no-extraneous-dependencies': ['off'],
